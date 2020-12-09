@@ -15,7 +15,7 @@ Comparing the false negative rates across the tow different sexes we see that th
 
 ![example](/image/img009.jpg)
 
-From predictions we can see thar 22% of men have got approved for the loan, whereas on woman the ratio is only 7%. We can see that the model has treated different groups of people based on its sex, beaing men group the most benefited for this model. Thus if we deploy this model to production, we'll have a problem for discrimination.
+From predictions we can see thar 22% of men have got approved for the loan, whereas on woman the ratio is only 7%. We can see that the model has treated different groups of people based on its sex, being men group the most benefited for this model. Thus if we deploy this model to production, we'll have a problem for discrimination.
 
 ## Use of Fairlearn tool to mitigate disparity
 In order to solve this problem we can use the Fairlearn's motigation algorithm (Gridsearh) to mitigate this particular unfairness. The main idea behind this algorithm is treat the fair classification to a sequence of cost-sensitive classification problems. Basically, it trains several models based on the same classification algorithm but with different hyperparameters. The objetive is reduce the dispatity ratio between a specific variable, which in this case is sex. After apply this mitigation algorithm, we can launch other dashboard. We can see in this model comparison chart the accuracy of different models with respect to their disparity in predictions or selection rate. 
