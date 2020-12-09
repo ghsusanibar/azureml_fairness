@@ -51,9 +51,9 @@ Additionally, Microsoft has developed six AI principles for Responsible AI. Micr
 ![azureml](/image/img011.jpg)
 
 ## Sources
-https://www.microsoft.com/en-us/ai/responsible-ai
-https://www.youtube.com/watch?v=Ts6tB2p97ek&ab_channel=MicrosoftDeveloper
-https://github.com/fairlearn/fairlearn
-https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-fairness-aml
+https://www.microsoft.com/en-us/ai/responsible-ai <br />
+https://www.youtube.com/watch?v=Ts6tB2p97ek&ab_channel=MicrosoftDeveloper <br />
+https://github.com/fairlearn/fairlearn <br />
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-machine-learning-fairness-aml <br />
 https://arxiv.org/pdf/1803.02453.pdf
 <!-- #endregion -->
